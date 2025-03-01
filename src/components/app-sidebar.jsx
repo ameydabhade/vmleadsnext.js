@@ -31,30 +31,32 @@ const data = {
       icon: SquareTerminal,
       isActive: true,
       items: [
-        { title: "Analytics", url: "analytics" },
-        { title: "Leads", url: "leads" },
-        { title: "Calls", url: "calls" },
+        { title: "Analytics", url: "/dashboard/analytics" },
+        { title: "Leads", url: "/dashboard/leads" },
+        { title: "Calls", url: "/dashboard/calls" },
       ],
     },
     {
       title: "Reports",
       url: "#",
       icon: Bot,
+      isActive: true,
       items: [
-        { title: "Lead Report", url: "leadreport" },
-        { title: "Status Report", url: "statusreport" },
-        { title: "Client Report", url: "clientreport" },
-        { title: "Employee Report", url: "Employeereport" },
+        { title: "Lead Report", url: "/reports/leadreport" },
+        { title: "Status Report", url: "/reports/statusreport" },
+        { title: "Client Report", url: "/reports/clientreport" },
+        { title: "Employee Report", url: "/reports/Employeereport" },
       ],
     },
     {
       title: "Settings",
       url: "#",
       icon: Settings2,
+      isActive: true,
       items: [
-        { title: "General", url: "General" },
-        { title: "Billing", url: "Billing" },
-        { title: "Limits", url: "Limits" },
+        { title: "General", url: "/settings/General" },
+        { title: "Billing", url: "/settings/Billing" },
+        { title: "Limits", url: "/settings/Limits" },
       ],
     },
   ],
@@ -69,7 +71,7 @@ export function AppSidebar({ ...props }) {
           href="/"
           data-discover="true"
         >
-          Vigomerge
+          VmLeads
         </a>
       </SidebarHeader>
 

@@ -1,3 +1,4 @@
+import { SidebarProvider ,SidebarInset,SidebarTrigger} from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import {
   Breadcrumb,
@@ -8,13 +9,8 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Separator } from "@/components/ui/separator";
-import {
-  SidebarInset,
-  SidebarProvider,
-  SidebarTrigger,
-} from "@/components/ui/sidebar";
 
-export default function Page() {
+const Page = () => {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -27,12 +23,12 @@ export default function Page() {
               <BreadcrumbList>
                 <BreadcrumbItem className="hidden md:block">
                   <BreadcrumbLink href="#">
-                    Building Your Application
+                    Reports
                   </BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
-                  <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+                  <BreadcrumbPage>Employer Report</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
@@ -49,4 +45,6 @@ export default function Page() {
       </SidebarInset>
     </SidebarProvider>
   );
-}
+};
+
+export default Page;
