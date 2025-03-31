@@ -71,7 +71,7 @@ export function AppSidebar({ ...props }) {
           href="/"
           data-discover="true"
         >
-          VmLeads
+          VMLEADS
         </a>
       </SidebarHeader>
 
