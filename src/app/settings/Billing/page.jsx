@@ -13,9 +13,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const billingPlans = [
-  { name: "Gold", price: "$50/month", features: ["Unlimited Users", "200GB Storage", "24/7 Support"], color: "bg-yellow-500" },
-  { name: "Silver", price: "$30/month", features: ["20 Users", "50GB Storage", "Priority Support"], color: "bg-gray-400" },
-  { name: "Bronze", price: "$10/month", features: ["5 Users", "10GB Storage", "Email Support"], color: "bg-orange-600" },
+  { name: "Gold", price: "₹799/month", features: ["Unlimited Users", "200GB Storage", "24/7 Support"], color: "bg-yellow-500" },
+  { name: "Silver", price: "₹599/month", features: ["20 Users", "50GB Storage", "Priority Support"], color: "bg-gray-400" },
+  { name: "Bronze", price: "₹399/month", features: ["5 Users", "10GB Storage", "Email Support"], color: "bg-orange-600" },
 ];
 
 const Page = () => {

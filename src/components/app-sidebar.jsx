@@ -67,7 +67,7 @@ export function AppSidebar({ ...props }) {
     <Sidebar collapsible {...props}>
       <SidebarHeader className="flex justify-center items-center">
         <a
-          className="text-[#2D2CB8] font-bold text-3xl"
+          className="text-[#2D2CB8] font-bold text-2xl"
           href="/dashboard/analytics"
           data-discover="true"
         >
